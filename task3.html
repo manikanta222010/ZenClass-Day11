@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task3.css">
+    <title>Task-3</title>
+</head>
+<body>
+    <div class="main">
+        <form action="https://www.guvi.in/dashboard">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label for="fname">First Name</label>
+                <br/>
+                <input type="text" placeholder=" First Name" required >
+                <br/><br/>
+                <label for="lname">Last Name</label>
+                <br/>
+                <input type="text" placeholder=" Last Name" required>
+                <br/><br/>
+                <label for="email">Email</label>
+                <br/>
+                <input type="email" placeholder=" Email" required>
+                <br/><br/>
+                <label for="phone">Phone Number</label>
+                <br/>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder=" 9876543210">
+                <br/><br/>
+                <label for="message">Message</label>
+                <br/>
+                <textarea id="message" name="message" placeholder=" Message" rows="8" cols="30" required></textarea>
+                <br/><br/>
+                <button>Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
