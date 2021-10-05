@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-11</title>
+</head>
+
+<body>
+    <form action="#">
+        <label for="fname">Enter your Name:</label>
+        <input type="fname" id="fname" name="fname">
+        <br /><br />
+        <label for="fname">Enter your Email ID:</label>
+        <input type="email" id="email" name="email"><br/><br/>
+        <label for="password">Enter your Password:</label>
+        <input type="password">
+        <br /><br />
+        <label for="phone">Enter phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{5}">
+        <small>Format: 12345-67890</small>
+        <br /><br />
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120">
+        <br /><br />
+        <label for="gender">Gender</label><br/>
+        <input type="radio" id="male" name="gender">
+        <label for="gender">Male</label><br/>
+        <input type="radio" id="female" name="gender">
+        <label for="gender">Female</label><br/>
+        <br /><br />
+        <label for="hobbies">Hobbies</label><br/>
+        <input type="checkbox" id="traveling" name="hobbies">
+        <label for="hobbies">Traveling</label><br/>
+        <input type="checkbox" id="gaming" name="hobbies">
+        <label for="hobbies">Gaming</label><br/>
+        <input type="checkbox" id="food" name="hobbies">
+        <label for="hobbies">Food</label>
+        <br /><br />
+        <label for="favorite">Select your favorite color:</label>
+        <input type="color" id="favorite" name="favorite" value="#fff">
+        <br /><br />
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br /><br />
+        <label for="birthdaytime">Birthday with date and time:</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <br /><br />
+        <label for="file">Choose DOB certificate:</label>
+        <input type="file" id="file" name="file">
+        <br /><br />
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+        <br /><br />
+        <label for="happy">How happy you are (between 0 and 10):</label>
+        <input type="range" id="happy" name="happy" min="0" max="10">
+        <br /><br />
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search">
+        <br /><br />
+        <label for="remainder">Remainder at:</label>
+        <input type="time" id="remainder" name="remainder">
+        <br /><br />
+        <label for="profilepage">Add social URL:</label>
+        <input type="url" id="profilepage" name="profilepage">
+        <br /><br />
+        <label for="week">Choose a week to achinve goal:</label>
+        <input type="week" id="week" name="week">
+        <br/><br/>
+        <input type="submit" value="Submit">
+        <input type="reset"><br /><br />
+    </form>
+    <input type="button" onclick="alert('This is input of type button')" value="Click Me!"><br /><br />
+</body>
+
+</html>
